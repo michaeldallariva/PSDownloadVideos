@@ -88,7 +88,7 @@ This is slower on long videos because re-encoding is CPU-bound.
 
 ### Download-only mode (`ConvertToH264 = $false`)
 
-Use this when a media server such as Plex, Jellyfin, or Emby will handle the file. The original codecs (commonly AV1 video and Opus audio from YouTube) are kept exactly as downloaded. The media server can transcode using GPU hardware acceleration, which is far faster than CPU re-encoding in PowerShell.
+Use this when a media server such as Plex, NexusM, Jellyfin, or Emby will handle the file. The original codecs (commonly AV1 video and Opus audio from YouTube) are kept exactly as downloaded. The media server can transcode using GPU hardware acceleration, which is far faster than CPU re-encoding in PowerShell.
 
 Faststart is still applied via a lossless stream copy during the yt-dlp merge step, so the file is ready for HTTP streaming regardless.
 
