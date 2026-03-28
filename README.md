@@ -18,7 +18,7 @@ yt-dlp and ffmpeg are installed automatically via winget if not already present.
 
 1. Download `PSDownloadVideos.ps1`
 2. Open it in a text editor and set your preferred configuration values (see [Configuration](#configuration))
-3. Right-click the file and choose **Run with PowerShell**, or run it from a terminal:
+3. Right-click the file and choose **Run with PowerShell**, or run it from Visual Studio Code for example:
 
 ```powershell
 .\PSDownloadVideos.ps1
