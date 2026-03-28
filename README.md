@@ -1,6 +1,9 @@
 # PSDownloadVideos
 
-A PowerShell script that downloads videos from YouTube and hundreds of other sites as MP4 files. It handles tool installation, automatic updates, browser cookie authentication, codec verification, and optional re-encoding - all from a single script with no manual setup required.
+A PowerShell script that downloads videos from hundreds of sites as MP4 files. It handles tool installation, automatic updates, browser cookie authentication, codec verification, and optional re-encoding
+All from a single script with no manual setup required
+
+It is built on yt-dlp, a well-known open source tool used by researchers, journalists and archivists worldwide. Useful if you are a journalist archiving source material, a police investigator that need to save videos posted on social media platforms, or just someone who wants to keep what is theirs.
 
 ---
 
